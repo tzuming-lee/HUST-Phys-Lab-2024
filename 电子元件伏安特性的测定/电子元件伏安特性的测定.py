@@ -1,8 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-plt.rcParams['font.family'] = 'Source Han Serif CN'  # 用来正常显示中文标签, 如果系统中不存在Source Han Sans CN字体，即使设置了也无法正常显示，需要根据系统字体进行设置
-
+plt.rcParams['font.family']='Source Han Serif'
 voltageRange_10_Ohm=1
 milliampRange_10_Ohm=75
 
